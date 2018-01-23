@@ -1,0 +1,4 @@
+FROM cyberious:terragrutn
+MAINTAINER "cyberious"
+
+RUN apk add py-pip && pip install awscli --upgrade
